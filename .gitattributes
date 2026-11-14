@@ -1,0 +1,16 @@
+# Normalize line endings: avoids the "all files modified" noise between Windows and WSL/Linux
+* text=auto eol=lf
+
+# PowerShell scripts always use LF in the repository (works in PowerShell 5.1 and 7+)
+*.ps1 text eol=lf
+*.psm1 text eol=lf
+*.psd1 text eol=lf
+*.md text eol=lf
+
+# Treated as binary (no EOL conversion)
+*.vhd binary
+*.zip binary
+*.xlsx binary
+*.cer binary
+*.pfx binary
+*.png binary

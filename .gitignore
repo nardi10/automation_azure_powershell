@@ -1,0 +1,23 @@
+# Script-generated output (reports) — do not version environment data
+*.csv
+*.xlsx
+*.xls
+
+# Sensitive files / credentials
+*.pfx
+*.cer
+*.key
+*.publishsettings
+secrets.*
+.env
+
+# Local artifacts
+*.log
+*.tmp
+~$*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
